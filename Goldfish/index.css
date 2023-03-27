@@ -1,0 +1,17 @@
+table, td{
+    border: 1px solid red;
+}
+body{
+    align-content: center;
+  }
+  h1 {
+    font-family: Baskerville, cambria, serif;
+    font-size: 24px;
+    color: cadetblue;
+  }
+  .navbar {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: cornflowerblue;
+    border-color: cadetblue;
+  }

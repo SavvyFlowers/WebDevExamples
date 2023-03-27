@@ -1,0 +1,13 @@
+<hierarchy title="Vehicles"/>
+<supertype text="Vehicle">
+	<type text="Motorcycle">
+	</type>
+	<type text="Car">
+		<model>"Sedan"</model>
+        <model>"SUV"</model>
+	</type>
+    <type text="Truck">
+        <model>"Light"</model>
+        <model>"Heavy"</model>
+    </type>
+</supertype>

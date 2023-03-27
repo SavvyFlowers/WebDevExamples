@@ -1,0 +1,11 @@
+div{
+    background-color:yellow;
+    color:red;
+    border-style: solid;
+    border-color:red;
+    padding: 60px;
+}
+
+span{
+    border: 1px solid;
+}
