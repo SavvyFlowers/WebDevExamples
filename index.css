@@ -6,7 +6,19 @@ h1 {
   font-size: 24px;
   color: cadetblue;
 }
-#hello {
+p {
+  font-family: baskerville, cambria, serif;
+  font-size: 12px;
+}
+/* selector */
+p.red
+/* properties */
+{
+  color: red;
+  font-style: italic;
+}
+
+.hello {
   font-weight: bold;
   font-style: italic;
 }
