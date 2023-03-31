@@ -1,5 +1,6 @@
+@import url("..\\styles.css");
 table, td{
-    border: 1px solid red;
+    border: 1px solid #ffdead;
 }
 body{
     align-content: center;
@@ -8,10 +9,4 @@ body{
     font-family: Baskerville, cambria, serif;
     font-size: 24px;
     color: cadetblue;
-  }
-  .navbar {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    color: cornflowerblue;
-    border-color: cadetblue;
   }

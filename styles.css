@@ -1,0 +1,64 @@
+/* Color Palette
+#F7FFF7 - Mint cream
+#343434 - Jet
+#2F3061 - Delft Blue
+#FFE66D - Naples yellow
+#A1C6D7 - Light blue
+*/
+
+/* Global */
+body{
+  align-content: center;
+  color: #343434;
+}
+
+/* header */
+header{
+  background: #2F3061;
+  color: #F7FFF7;
+}
+.navlist{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2F3061;
+}
+.navlist li {
+  float: left;
+}
+.navlist li a{
+  display: block;
+  color: #F7FFF7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navlist li a:hover {
+  background-color: black;
+}
+
+/* Basics */
+.basics{
+  background: #F7FFF7;
+}
+
+/* Format */
+.format{
+  background: #A1C6D7;
+}
+
+/* Lists */
+
+
+/* Footer */
+footer{
+  background: #343434;
+  color: #F7FFF7;
+}
+
+
+
+
+
+
