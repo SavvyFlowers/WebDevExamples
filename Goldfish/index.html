@@ -4,6 +4,24 @@
         <meta charset="utf-8"/>
         <title>Goldfish</title>
         <link href="index.css" rel="stylesheet"></link>
+
+        <style type="text/css">
+            .redbg {
+            background-color: red;
+            }
+            .greenbg {
+            background-color:green;}
+            .yellowbg {
+            background-color: yellow;
+            }
+            .bluebg {
+            background-color: blue;
+            }
+            .sq200 {
+            width: 200px;
+            height: 200px;
+            }
+        </style> 
     </head>
     <body>
         <nav class="navbar" role="navigation" aria-label="main menu">  
@@ -41,6 +59,33 @@
             </tbody>
           	
 		</table>
+
+        <!-- Example of inline and block elements -->
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+
+        <p style="display: inline;">Paragraph1</p>
+        <p style="display: inline;">Paragraph2</p>
+        <p style="display: inline;">Paragraph3</p>
+        <p style="display: inline;">Paragraph4</p>
         
+        <div>
+            <div class="redbg">This is red</div>
+            <div class="yellowbg">This is yellow</div>
+        </div>
+        <div>
+            <div class="greenbg">this is green</div>
+            <div class="bluebg">this is blue</div>
+        </div>
+        <div>
+            <div class="sq200 redbg">this is a red square</div>
+            <div class="sq200 yellowbg">this is a yellow square</div>
+        </div>
+        <div>
+            <div class="sq200 greenbg">This is a green square</div>
+            <div class="sq200 bluebg">This is a blue square</div>
+        </div>
     </body>
 </html>
